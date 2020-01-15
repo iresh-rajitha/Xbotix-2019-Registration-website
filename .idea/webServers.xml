@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="761a3aaa-0b26-4142-978e-f47434d1158b" name="Apache Server" url="http://localhost/Xbotix">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\Xbotix" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

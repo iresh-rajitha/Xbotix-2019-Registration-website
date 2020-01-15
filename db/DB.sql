@@ -1,0 +1,32 @@
+DROP DATABASE xbotix;
+CREATE DATABASE xbotix;
+USE xbotix;
+
+CREATE TABLE Registration(
+	rid INT AUTO_INCREMENT PRIMARY KEY,
+	school_uni VARCHAR(50) NOT NULL,
+	team_name VARCHAR(50) NOT NULL,
+	school_uni_name VARCHAR(50) NOT NULL,
+	l_name VARCHAR(100) NOT NULL,
+	l_nic VARCHAR(20),
+	l_email VARCHAR(50) NOT NULL,
+	l_contact VARCHAR(50) NOT NULL,
+	m1_name VARCHAR(100) NOT NULL,
+	m1_nic VARCHAR(20),
+	m1_email VARCHAR(50),
+	m2_name VARCHAR(100) NOT NULL,
+	m2_nic VARCHAR(20),
+	m2_email VARCHAR(50),
+	m3_name VARCHAR(100) NOT NULL,
+	m3_nic VARCHAR(20),
+	m3_email VARCHAR(50),
+	m4_name VARCHAR(100) NOT NULL,
+	m4_nic VARCHAR(20),
+	m4_email VARCHAR(50)
+);
+
+CREATE TABLE Admin(
+	aid INT AUTO_INCREMENT PRIMARY KEY,
+	user_name VARCHAR(50) NOT NULL,
+	pwd varchar(400) NOT NULL
+);

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="XbotiX">
+    <meta name="keywords" content="XbotiX">
+    <meta name="author" content="XbotiX">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title>Registration</title>
+    <!-- ========== Favicon Ico ========== -->
+    <link rel="icon" href="favicon.png">
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="loader">
+    <img src="assets/img/bg/animate.gif" alt="XbotiX"/>
+</div>
+
+<!--header start here -->
+<header class="header navbar fixed-top navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/img/logo.png" alt="Xbotix"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-text-align-right"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header end here-->
+
+<!--page title section-->
+<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="assets/img/bg/bg-img.png">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <div class="inner_cover_content">
+                    <h3>
+                        Registration
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="#">Home</a>   |  </li>
+                <li><span>Registration</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--page title section end-->
+
+
+<!--events section -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--blog section start -->
+            <form class="col-12 col-md-8" action="include/add-competetors.php" method="post">
+			<!-- Default unchecked -->
+				<h4>Category</h4>
+				<div class="radio">
+				  <label><input type="radio" class="category" name="category" value="undergraduate" checked>&nbsp Undergraduate</label>
+				</div>
+				<div class="radio">
+				  <label><input type="radio" class="category" name="category" value="school">&nbsp School</label>
+				</div>
+				<br>
+				<div class="form-group">
+					<label class="form-control-placeholder" id="cat-name" >Name of the University</label>
+					<input type="text" id="name-uni" name="uni_school" class="form-control" >
+				</div>
+				<div class="form-group">
+					<label class="form-control-placeholder"  >Name of the Team</label>
+					<input type="text" id="name-team" name="team_name" class="form-control" >
+				</div>
+				<hr>
+				<div class="form-group m1">
+					<h4>Leader</h4>
+					<label class="form-control-placeholder" >Name</label>
+					<input type="text" id="name-l" name="l_name" class="form-control" >
+				</div>
+                <div class="form-group nic">
+                    <label class="form-control-placeholder" >NIC</label>
+                    <input type="text" id="nic-l" name="l_nic" class="form-control">
+                </div>
+				<div class="form-group">
+					<label class="form-control-placeholder" >Email</label>
+					<input type="text" id="email-l" name="l_email" class="form-control">
+				</div>
+                <div class="form-group">
+                    <label class="form-control-placeholder" >Contact Number</label>
+                    <input type="text" id="tele-l" name="l_contact" class="form-control">
+                </div>
+				<hr>
+				<div class="form-group m1">
+					<h4>Member 1</h4>
+					<label class="form-control-placeholder" >Name</label>
+					<input type="text" id="name-m1" name="m1_name" class="form-control">
+				</div>
+                <div class="form-group nic">
+                    <label class="form-control-placeholder" >NIC</label>
+                    <input type="text" id="nic-m1" name="m1_nic" class="form-control">
+                </div>
+				<div class="form-group">
+					<label class="form-control-placeholder" >Email</label>
+					<input type="text" id="email-m1" name="m1_email" class="form-control" >
+				</div>
+				<hr>
+				<div class="form-group m1">
+					<h4>Member 2</h4>
+					<label class="form-control-placeholder" >Name</label>
+					<input type="text" id="name-m2" name="m2_name" class="form-control" >
+				</div>
+                <div class="form-group nic">
+                    <label class="form-control-placeholder" >NIC</label>
+                    <input type="text" id="nic-m2" name="m2_nic" class="form-control">
+                </div>
+				<div class="form-group">
+					<label class="form-control-placeholder">Email</label>
+					<input type="text" id="email-m2" name="m2_email" class="form-control">
+				</div>
+				<hr>
+				<div class="form-group m1">
+					<h4>Member 3</h4>
+					<label class="form-control-placeholder">Name</label>
+					<input type="text" id="name-m3" name="m3_name" class="form-control">
+				</div>
+                <div class="form-group nic">
+                    <label class="form-control-placeholder" >NIC</label>
+                    <input type="text" id="nic-m3" name="m3_nic" class="form-control">
+                </div>
+				<div class="form-group">
+					<label class="form-control-placeholder">Email</label>
+					<input type="text" id="email-m3" name="m3_email" class="form-control">
+				</div>
+				<hr>
+				<div class="form-group m1">
+					<h4>Member 4</h4>
+					<label class="form-control-placeholder">Name</label>
+					<input type="text" id="name-m4" name="m4_name" class="form-control">
+				</div>
+                <div class="form-group nic">
+                    <label class="form-control-placeholder" >NIC</label>
+                    <input type="text" id="nic-m4" name="m4_nic" class="form-control">
+                </div>
+				<div class="form-group">
+					<label class="form-control-placeholder">Email</label>
+					<input type="text" id="email-m4" name="m4_email" class="form-control">
+				</div>
+				<div class="form-group text-right">
+                    <button id="submitbtn" name="submit" class="btn btn-rounded">Submit</button>
+                </div>
+            </form>
+            <!--blog section end-->
+
+            <!--sidebar section -->
+            <div class="col-12 col-md-4">
+                <div class="sidebar">
+                    <div class="widget widget_search">
+                    </div>
+                    <div class="widget widget_categories">
+                        <h4 class="widget-title">
+                            Archives
+                        </h4>
+                        <ul>
+                            <li><a href="#">Xbotix 2014</a></li>
+                            <li><a href="#">Xbotix 2015</a></li>
+                            <li><a href="#">Xbotix 2016</a></li>
+                            <li><a href="#">Xbotix 2017</a></li>
+                            <li><a href="#">Xbotix 2018</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget_latest_post">
+                        <h4 class="widget-title">
+                            collaboration with
+                        </h4>
+                        <ul>
+                            <li>
+                                <div class="widget_recent_posts">
+                                    <img src="assets/img/blog/EIES.jpg" alt="Xbotix">
+                                    <div class="content">
+                                        <a href="#">EIES</a>
+                                        <p>Department of Electrical and Information Engineering,UOR
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="widget_recent_posts">
+                                    <img src="assets/img/blog/MMES.png" alt="news">
+                                    <div class="content">
+                                        <a href="#">MMES</a>
+                                        <p>Department of Mechanical and Manufacturing Engineering,
+                                            UOR
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="widget_recent_posts">
+                                    <img src="assets/img/blog/IEEE.png" alt="news">
+                                    <div class="content">
+                                        <a href="#">IEEE</a>
+                                        <p>IEEE Ruhuna Chapter</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="widget_recent_posts">
+                                    <img src="assets/img/blog/IET.png" alt="news">
+                                    <div class="content">
+                                        <a href="#">IET</a>
+                                        <p>IET on campus Ruhuna</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="widget_recent_posts">
+                                    <img src="assets/img/blog/AAREIE.jpg" alt="news">
+                                    <div class="content">
+                                        <a href="#">AAREIE</a>
+                                        <p>Alumni Association of Ruhuna<br>Electrical and Information Engineering</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+<!--                    <div class="widget widget_instagram">-->
+<!--                        <h4 class="widget-title">-->
+<!--                            Instagram-->
+<!--                        </h4>-->
+<!--                        <ul>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst5.png" alt="instagram"></a></li>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst2.png" alt="instagram"></a></li>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst3.png" alt="instagram"></a></li>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst4.png" alt="instagram"></a></li>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst5.png" alt="instagram"></a></li>-->
+<!--                            <li><a href="#"><img src="assets/img/blog/instagram/inst6.png" alt="instagram"></a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+                    <div class="widget widget_tags">
+                        <h4 class="widget-title">
+                            Tags
+                        </h4>
+                        <ul>
+                            <li><a href="#">EIES</a></li>
+                            <li><a href="#">MMES</a></li>
+                            <li><a href="#">IEEE</a></li>
+                            <li><a href="#">IET</a></li>
+                            <li><a href="#">AAREIE</a></li>
+                            <li><a href="#">REF Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--sidebar section end -->
+
+        </div>
+    </div>
+</section>
+<!--event section end -->
+
+
+
+
+<!--get tickets section end-->
+
+<!--footer start -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <div class="footer_logo">
+                            <img src="assets/img/logo.png" alt="evento">
+                        </div>
+                    </div>
+                    <div class="footer_box_body">
+                        <p>
+                            The biggest Robotic extravaganza of year 2019.Which is organized by Electrical and Information Engineering Society (EIES) in collaboration with IEEE Student Branch, IET Ruhuna Chapter and Mechanical and Manufacturing Engineering Student Society (MMESS) university of Ruhuna
+                        </p>
+                        <ul class="footer_social">
+                            <li>
+                                <a href="#"><i class="ion-social-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            Follow us on Facebook
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FXbotiX%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            Contact us
+                        </h4>
+						<i class="icon-phone">  </i>&nbsp Chalitha  &nbsp&nbsp - 071 606 5912 <br>
+						<i class="icon-phone"> </i>&nbsp Nuwanthika - 071 150 3281  <br>
+						<i class="icon-phone"> </i>&nbsp Chandima  &nbsp - 071 200 5667 <br>
+                    </div>
+                    <div class="footer_box_body">
+					<h4 class="footer_title">
+                            Email:
+                    </h4>
+						<form action="mailto:eiesruhuna@gmail.com" method="post" enctype="text/plain">
+							<div class="newsletter_form">
+								<input type="email" class="form-control" placeholder="E-Mail here">
+								<button type="submit" class="btn btn-rounded btn-block btn-primary">Send</button>
+							</div>
+						</form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                <p>
+					<a>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Xbotix 2019</a>
+</p>
+            </div>
+            <div class="col-12 col-md-6 ">
+                <ul class="footer_menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="overlay" onclick="off()">
+    <h2>->Leader is compulsory and members are optional for school Category.</h2>
+    <h2>->5<sup>th</sup> member is optional for undergraduate category.</sup></h2>
+</div>
+<div id="help" onclick="on()"><i class="ion-ios-help"></i></div>
+<!--footer end -->
+
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="assets/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
